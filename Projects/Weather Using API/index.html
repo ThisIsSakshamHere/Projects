@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherCast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <div id="background-wrap">
+        <div class="x1">
+            <div class="cloud"></div>
+        </div>
+
+        <div class="x2">
+            <div class="cloud"></div>
+        </div>
+
+        <div class="x3">
+            <div class="cloud"></div>
+        </div>
+
+        <div class="x4">
+            <div class="cloud"></div>
+        </div>
+
+        <div class="x5">
+            <div class="cloud"></div>
+        </div>
+    </div>
+    <nav>
+        <div id="one">
+            <button>Home</button>
+            <button>Cities</button>
+            <button>Settings</button>
+            <button>About</button>
+            <button>Contact</button>
+        </div>
+
+        <div id="two">
+            <button id="themeToggle">☼</button>
+            <input id="search" type="text" placeholder="Search city">
+        </div>
+    </nav>
+    <h1>WeatherCast</h1>
+    <div class="demo-container-weather">
+        <article class="weather-card" aria-labelledby="weather-location">
+            <header class="weather-card-header">
+                <div>
+                    <h3 class="weather-card-location" id="weather-location">Kyoto</h3>
+                    <p class="weather-card-country">Japan</p>
+                    <p class="weather-card-date">Wednesday, Oct 2, 2025</p>
+                </div>
+                <div class="weather-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.106a.75.75 0 010 1.06l-1.591 1.59a.75.75 0 11-1.06-1.06l1.59-1.591a.75.75 0 011.06 0zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5h2.25a.75.75 0 01.75.75zM16.5 16.5a.75.75 0 011.06 0l1.59 1.591a.75.75 0 11-1.06 1.06l-1.59-1.59a.75.75 0 010-1.061zM12 18a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM5.106 17.894a.75.75 0 010-1.06l1.59-1.591a.75.75 0 011.06 1.06l-1.59 1.59a.75.75 0 01-1.06 0zM3 12a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5H3.75A.75.75 0 013 12zM5.106 6.106a.75.75 0 011.06 0l1.59 1.591a.75.75 0 11-1.06 1.06l-1.59-1.59a.75.75 0 010-1.06z" />
+                    </svg>
+                </div>
+            </header>
+            <div class="weather-card-main">
+                <p class="weather-temperature">21&deg;C</p>
+                <p class="weather-condition">Mostly Sunny</p>
+            </div>
+            <footer class="weather-card-footer">
+                <span>H: 24&deg;C</span>
+                <span>L: 18&deg;C</span>
+            </footer>
+        </article>
+    </div>
+    <footer class="weather-card-footer">
+        <span>H: 24°C</span>
+        <span>L: 18°C</span>
+        <span id="aqi">AQI: --</span>
+    </footer>
+    <section id="pricing" class="pricing-content section-padding">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1>Pricing Plan</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s"
+                    data-wow-offset="0">
+                    <div class="single-pricing">
+                        <div class="price-head">
+                            <h2>Starter</h2>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h1 class="price">$29</h1>
+                        <h5>Monthly</h5>
+                        <a id="link2" href="#">Get start</a>
+                    </div>
+                </div><!--- END COL -->
+                <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"
+                    data-wow-offset="0">
+                    <div class="single-pricing">
+                        <div class="price-head">
+                            <h2>popular</h2>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h1 class="price">$49</h1>
+                        <h5>Monthly</h5>
+                        <a id="link2" href="#">Get start</a>
+                    </div>
+                </div><!--- END COL -->
+                <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"
+                    data-wow-offset="0">
+                    <div class="single-pricing single-pricing-white">
+                        <div class="price-head">
+                            <h2>Advance</h2>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="price-label">Best</span>
+                        <h1 class="price">$69</h1>
+                        <h5>Monthly</h5>
+                        <a id="link2" href="#">Get start</a>
+                    </div>
+                </div><!--- END COL -->
+            </div><!--- END ROW -->
+        </div><!--- END CONTAINER -->
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

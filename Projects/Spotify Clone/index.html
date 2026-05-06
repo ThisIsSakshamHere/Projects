@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="logo.png" class="logo">
+            <div class="home-icon">Home</div>
+            <div class="search-bar">
+                <span class="icon">🔎︎</span>
+                <input type="text" placeholder="What do you want to play?" />
+                <span class="icon">⿻</span>
+            </div>
+
+        </div>
+        <div class="nav-right">
+            <div class="links">
+                <span>Premium</span>
+                <span>Support</span>
+                <span>Download</span>
+            </div>
+            <div class="divider"></div>
+            <a href="https://open.spotify.com/download" class="install">Install App</a>
+            <div class="signup">Sign up</div>
+            <div class="login">Log in</div>
+        </div>
+    </nav>
+    <div class="cont">
+        <div class="left">
+            <div class="library">Your Library</div>
+            <div class="card">
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
+                <button>Create playlist</button>
+            </div>
+
+            <div class="card">
+                <h4>Let's find some podcasts to follow</h4>
+                <p>We'll keep you updated on new episodes</p>
+                <button>Browse podcasts</button>
+            </div>
+
+            <div class="footer">
+                <div class="links2">
+                    <span>Legal</span>
+                    <span>Safety & Privacy Center</span>
+                    <span>Privacy Policy</span>
+                    <span>Cookies</span>
+                    <span>About Ads</span>
+                    <span>Accessibility</span>
+                </div>
+                <button class="lang">🌐 English</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="First">
+                <div class="trend">Trending Now</div>
+                <a href="https://open.spotify.com/section/0JQ5DB5E8N831KzFzsBBQ2" class="showall">Show All</a>
+            </div>
+            <div class="slider-container">
+
+                <button class="scroll-btn" onclick="scrollSliderLeft()">❮</button>
+
+                <div id="sliderjs" class="slider">
+                    <a href="https://google.com" class="song">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02540af9bd29b7dd32fe2f0de0" class="cover">
+                        <div class="title">Eyes On Me</div>
+                        <div class="artist">Sidhu Moosewala, The Kidd</div>
+                    </a>
+
+                    <a href="https://google.com" class="song">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e02ad214fc33b05facb1e527b98"
+                            data-testid="card-image" alt="" class="cover">
+                        <div class="title">Mashoor</div>
+                        <div class="artist">Sheharyar Rehan</div>
+                    </a>
+
+                    <a href="https://google.com" class="song">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e02ef8b82436833330bf4f0370a"
+                            data-testid="card-image" alt="" class="cover">
+                        <div class="title">Jab Tak - Cocktail 2</div>
+                        <div class="artist">Pritam ,Arjit Singh</div>
+                    </a>
+
+                    <a href="https://google.com" class="song">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e02b8c73f0afd6f37c0a2d710e7"
+                            data-testid="card-image" alt="" class="cover">
+                        <div class="title">Antidote</div>
+                        <div class="artist">Karan Aujla</div>
+                    </a>
+                    <a href="https://google.com" class="song">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02540af9bd29b7dd32fe2f0de0" class="cover">
+                        <div class="title">Eyes On Me</div>
+                        <div class="artist">Sidhu Moosewala, The Kidd</div>
+                    </a>
+
+                    <a href="https://google.com" class="song">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e02ad214fc33b05facb1e527b98"
+                            data-testid="card-image" alt="" class="cover">
+                        <div class="title">Mashoor</div>
+                        <div class="artist">Sheharyar Rehan</div>
+                    </a>
+
+                    <a href="https://google.com" class="song">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e02ef8b82436833330bf4f0370a"
+                            data-testid="card-image" alt="" class="cover">
+                        <div class="title">Jab Tak - Cocktail 2</div>
+                        <div class="artist">Pritam ,Arjit Singh</div>
+                    </a>
+
+                    <a href="https://google.com" class="song">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67616d00001e02b8c73f0afd6f37c0a2d710e7"
+                            data-testid="card-image" alt="" class="cover">
+                        <div class="title">Antidote</div>
+                        <div class="artist">Karan Aujla</div>
+                    </a>
+
+                    <a href="https://google.com" class="song">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02540af9bd29b7dd32fe2f0de0" class="cover">
+                        <div class="title">Eyes On Me</div>
+                        <div class="artist">Sidhu Moosewala, The Kidd</div>
+                    </a>
+                </div>
+
+                <button class="scroll-btn right" onclick="scrollSliderRight()">❯</button>
+            </div>
+            <div class="First">
+                <div class="trend">Top Artists</div>
+                <a href="#" class="showall">Show All</a>
+            </div>
+
+            <div class="slider-container">
+
+                <button class="scroll-btn" onclick="scrollArtistsLeft()">❮</button>
+
+                <div id="artistSlider" class="slider">
+
+                    <div class="artist-card">
+                        <img src="https://i.ytimg.com/vi/B_kijixJIeE/maxresdefault.jpg">
+                        <p>Arijit Singh</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/ShreyaGhoshal.jpg">
+                        <p>Shreya Ghoshal</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <img src="https://drytickets.com.au/assets/upload/celebrities/266-neha-kakkar.jpg">
+                        <p>Neha Kakkar</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOpTouFTB0SbnZuT5YL_-nY-irGtUJrOQuoA&s">
+                        <p>Badshah</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-l5J07OryJLyX9Exe5EVKCOm5H-Qx4rIFA&s">
+                        <p>Diljit Dosanjh</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <img src="https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601">
+                        <p>Tame Impala</p>
+                    </div>
+
+                </div>
+
+                <button class="scroll-btn right" onclick="scrollArtistsRight()">❯</button>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="player">
+
+            <div class="player-left">
+                <span id="songName">No song playing</span>
+            </div>
+            <div class="player-center">
+                <button onclick="prevSong()">⏮</button>
+                <button onclick="togglePlay()">▶</button>
+                <button onclick="nextSong()">⏭</button>
+            </div>
+            <div class="progress-container player-center">
+                    <span id="currentTime">0:00</span>
+                    <input type="range" id="progress" value="0" min="0" max="100">
+                    <span id="duration">0:00</span>
+                </div>
+            <div class="player-right">🔊</div>
+        </div>
+
+        <audio id="audioPlayer"></audio>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
